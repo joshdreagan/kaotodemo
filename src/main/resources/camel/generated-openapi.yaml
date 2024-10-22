@@ -1,0 +1,6 @@
+- restConfiguration:
+    clientRequestValidation: true
+- rest:
+    openApi:
+      specification: customer-openapi-spec.json
+      missingOperation: ignore
